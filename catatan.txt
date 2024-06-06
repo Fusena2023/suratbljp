@@ -1,0 +1,15 @@
+lama
+Route::get('/pegawai',[KaryawanController::class, 'index'])->name('pegawai')->middleware('auth');
+baru
+Route::get('/datasurat',[KaryawanController::class, 'index'])->name('datasurat')->middleware('auth');
+lama
+Route::get('/tambahpegawai',[KaryawanController::class, 'tambahpegawai'])->name('tambahpegawai');
+baru
+Route::get('/tambahdatasurat',[KaryawanController::class, 'tambahdatasurat'])->name('tambahdatasurat');
+
+
+pegawai = coba
+tambahpegawai = test
+
+coba = datasurat
+test = tambahdatasurat
